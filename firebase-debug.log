@@ -1,0 +1,152 @@
+[debug] [2021-12-06T22:10:29.718Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:10:29.720Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:10:29.720Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:10:29.720Z] Platform:      linux
+[debug] [2021-12-06T22:10:29.720Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:10:29.720Z] Time:          Mon Dec 06 2021 22:10:29 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:10:29.720Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:10:29.755Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:10:29.755Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:10:29.755Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:10:29.756Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:10:29.757Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:10:29.874Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 06 Dec 2021 22:10:23 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:10:29.889Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:10:30.534Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 06 Dec 2021 22:10:23 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=554","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:10:30.539Z] > refreshing access token with scopes: []
+[debug] [2021-12-06T22:10:30.540Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:10:30.633Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 06 Dec 2021 22:10:24 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:10:30.647Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv [none]
+[debug] [2021-12-06T22:10:52.442Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:10:52.444Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:10:52.444Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:10:52.444Z] Platform:      linux
+[debug] [2021-12-06T22:10:52.445Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:10:52.445Z] Time:          Mon Dec 06 2021 22:10:52 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:10:52.445Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:10:52.479Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:10:52.479Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:10:52.479Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:10:52.480Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:10:52.480Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:10:52.586Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","date":"Mon, 06 Dec 2021 22:10:45 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:10:52.606Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:10:59.908Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:10:59.910Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:10:59.911Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:10:59.911Z] Platform:      linux
+[debug] [2021-12-06T22:10:59.911Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:10:59.911Z] Time:          Mon Dec 06 2021 22:10:59 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:10:59.911Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:10:59.949Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:10:59.949Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:10:59.949Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:10:59.950Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:11:41.236Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:11:41.237Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:11:41.237Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:11:41.237Z] Platform:      linux
+[debug] [2021-12-06T22:11:41.238Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:11:41.238Z] Time:          Mon Dec 06 2021 22:11:41 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:11:41.238Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:11:41.273Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:11:41.274Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:11:41.274Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:11:41.275Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:11:41.901Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 06 Dec 2021 22:11:35 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=547","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:11:41.903Z] > refreshing access token with scopes: []
+[debug] [2021-12-06T22:11:41.903Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:11:41.992Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 06 Dec 2021 22:11:35 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:11:42.006Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv [none]
+[debug] [2021-12-06T22:11:45.223Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:11:45.224Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy
+[debug] [2021-12-06T22:11:45.224Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:11:45.225Z] Platform:      linux
+[debug] [2021-12-06T22:11:45.225Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:11:45.225Z] Time:          Mon Dec 06 2021 22:11:45 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:11:45.225Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:11:45.257Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:11:45.258Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:11:45.258Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:11:45.259Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:11:45.259Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:12:02.972Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:12:02.973Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:12:02.974Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:12:02.974Z] Platform:      linux
+[debug] [2021-12-06T22:12:02.974Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:12:02.974Z] Time:          Mon Dec 06 2021 22:12:02 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:12:02.974Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:12:03.008Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:12:03.008Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:12:03.008Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:12:03.010Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:12:03.010Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:12:03.127Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Mon, 06 Dec 2021 22:11:56 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:12:03.147Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:12:03.762Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 06 Dec 2021 22:11:57 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=548","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:12:03.766Z] > refreshing access token with scopes: []
+[debug] [2021-12-06T22:12:03.766Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:12:03.854Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Mon, 06 Dec 2021 22:11:57 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:12:03.865Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv [none]
+[debug] [2021-12-06T22:12:04.110Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv 200
+[debug] [2021-12-06T22:12:04.111Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv {"projectId":"farland-cv","projectNumber":"301658188648","displayName":"farland cv","name":"projects/farland-cv","resources":{"hostingSite":"farland-cv"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'farland-cv'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-12-06T22:12:04.114Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:12:04.114Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:12:04.202Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 06 Dec 2021 22:11:57 GMT","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:12:04.226Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/farland-cv/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-12-06T22:13:44.304Z] ----------------------------------------------------------------------
+[debug] [2021-12-06T22:13:44.306Z] Command:       /home/james/.nvm/versions/node/v16.6.1/bin/node /home/james/.yarn/bin/firebase deploy --only hosting
+[debug] [2021-12-06T22:13:44.306Z] CLI Version:   9.23.0
+[debug] [2021-12-06T22:13:44.306Z] Platform:      linux
+[debug] [2021-12-06T22:13:44.306Z] Node Version:  v16.6.1
+[debug] [2021-12-06T22:13:44.309Z] Time:          Mon Dec 06 2021 22:13:44 GMT+0000 (Greenwich Mean Time)
+[debug] [2021-12-06T22:13:44.309Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-06T22:13:44.345Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-06T22:13:44.345Z] > authorizing via signed-in user (parallelrealitiesdesign@gmail.com)
+[debug] [2021-12-06T22:13:44.345Z] [iam] checking project farland-cv for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-06T22:13:44.347Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/farland-cv:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-06T22:13:44.973Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Mon, 06 Dec 2021 22:13:38 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=555","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:13:44.975Z] > refreshing access token with scopes: []
+[debug] [2021-12-06T22:13:44.975Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:13:45.066Z] <<< HTTP RESPONSE 200 {"date":"Mon, 06 Dec 2021 22:13:38 GMT","pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:13:45.078Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv [none]
+[debug] [2021-12-06T22:13:45.305Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv 200
+[debug] [2021-12-06T22:13:45.306Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/farland-cv {"projectId":"farland-cv","projectNumber":"301658188648","displayName":"farland cv","name":"projects/farland-cv","resources":{"hostingSite":"farland-cv"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'farland-cv'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-12-06T22:13:45.308Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-06T22:13:45.308Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-06T22:13:45.394Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Mon, 06 Dec 2021 22:13:38 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-06T22:13:45.409Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/farland-cv/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
