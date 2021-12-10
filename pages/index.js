@@ -7,22 +7,22 @@ import styles from "../styles/Home.module.css";
 const socials = [
   {
     name: "linkedin",
-    url: "linkedin.com",
+    url: "https://linkedin.com",
     color: "#0077B5",
   },
   {
     name: "gihtub",
-    url: "github.com/jamesmcfarland",
+    url: "https://github.com/jamesmcfarland",
     color: "#4078C0",
   },
   {
     name: "twitter",
-    url: "twitter.com",
+    url: "https://twitter.com",
     color: "#55ADEE",
   },
   {
     name: "instagram",
-    url: "instagram.com",
+    url: "https://instagram.com",
     color: "#E1306C",
   },
   {
