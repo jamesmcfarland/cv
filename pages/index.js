@@ -122,6 +122,8 @@ export default function Home() {
         {socials.map((social) => {
           return (
             <Link
+            key={social.name}
+            
               underline="none"
               href={social.url}
               variant="body1"
