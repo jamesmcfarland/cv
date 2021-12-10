@@ -102,7 +102,7 @@ export default function Home() {
                 </Typography>
               </Box>
               <Stack direction="row" justifyContent="space-between">
-                {links.map(link=>(<NavLink name={link.name} url={link.url} />))}
+                {links.map(link=>(<NavLink key={link.name} name={link.name} url={link.url} />))}
                
               </Stack>
             </Stack>
