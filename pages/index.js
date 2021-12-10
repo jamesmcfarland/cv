@@ -2,6 +2,7 @@ import { Link, Stack, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import Head from "next/head";
 import Image from "next/image";
+import NavLink from "../components/navlink";
 import styles from "../styles/Home.module.css";
 
 const socials = [
@@ -32,6 +33,29 @@ const socials = [
   },
 ];
 
+const links = [
+  {
+    name: "me",
+    url: "/me",
+  },
+  {
+    name: "edu",
+    url: "/education",
+  },
+  {
+    name: "projects",
+    url: "/projects",
+  },
+  {
+    name: "volunteering",
+    url: "/volunteering",
+  },
+  {
+    name: "work",
+    url: "/work",
+  },
+];
+
 export default function Home() {
   return (
     <>
@@ -55,8 +79,9 @@ export default function Home() {
           >
             <Stack spacing={4}>
               <Box
+              className="fancybg"
                 sx={{
-                  backgroundColor: "#3B3B3B",
+                  // backgroundColor: "#3B3B3B",
 
                   padding: "1rem",
                   color: "white",
@@ -77,21 +102,8 @@ export default function Home() {
                 </Typography>
               </Box>
               <Stack direction="row" justifyContent="space-between">
-                <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-                  ME.
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-                  EDU.
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-                  PROJECTS.
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-                  VOLUNTEERING.
-                </Typography>
-                <Typography variant="h5" sx={{ fontWeight: "bold" }}>
-                  WORK.
-                </Typography>
+                {links.map(link=>(<NavLink name={link.name} url={link.url} />))}
+               
               </Stack>
             </Stack>
           </Box>
@@ -99,7 +111,7 @@ export default function Home() {
           <Stack
             justifyContent="center"
             alignItems="stretch"
-            sx={{ color: "#3B3B3B" }}
+            sx={{ color: "#3B3B3B", paddingBottom:"2rem" }}
           >
             <Typography variant="h4" sx={{ fontWeight: "bold" }}>
               1ST YEAR.
@@ -107,9 +119,22 @@ export default function Home() {
             <Typography variant="h4" sx={{ fontWeight: "bold" }}>
               SOFTWARE ENGINEERING.
             </Typography>
-            <Typography variant="h4" sx={{ fontWeight: "bold" }}>
-              QUB.
-            </Typography>
+            <Link
+        href="https://qub.ac.uk"
+        underline="none"
+          variant="h4"
+          sx={{
+            fontWeight: "bold",
+            transition: "0.3s",
+            color:"#3B3B3B",
+            "&:hover": {
+              color: "#E20D18",
+            
+            },
+          }}
+        >
+          QUB.
+        </Link>
           </Stack>
         </Stack>
       </Box>
@@ -122,8 +147,7 @@ export default function Home() {
         {socials.map((social) => {
           return (
             <Link
-            key={social.name}
-            
+              key={social.name}
               underline="none"
               href={social.url}
               variant="body1"
