@@ -14,7 +14,7 @@ export default function NavLink({name, url}) {
               color: "#51A2FF",
               scale:"1.05",
               textShadow: "0px 5px 5px rgba(0,0,0,0.1)",
-              letterSpacing:"0.1em"
+              letterSpacing:"0.05em"
             },
           }}
         >
