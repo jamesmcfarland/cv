@@ -90,13 +90,13 @@ export default function Home() {
               >
                 <Typography
                   variant="h1"
-                  sx={{ fontWeight: "bold", fontSize: "7em" }}
+                  sx={{ fontWeight: "bold", fontSize: "15vh" }}
                 >
                   JAMES
                 </Typography>
                 <Typography
                   variant="h1"
-                  sx={{ fontWeight: "bold", fontSize: "7em" }}
+                  sx={{ fontWeight: "bold", fontSize: "15vh" }}
                 >
                   MCFARLAND.
                 </Typography>
